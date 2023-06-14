@@ -1,7 +1,7 @@
 # presentacion
 
 #codigo de esp32
-
+```
 #include "NewPing.h"      // include NewPing library
 #include "DHT.h"
 #include <WiFi.h>
@@ -214,3 +214,4 @@ float  valorsonido =  analogRead(sensor) ;
     }
   }
 }
+```
