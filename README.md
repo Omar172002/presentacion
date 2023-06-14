@@ -21,7 +21,7 @@ Para el desarrollo del trabajo se tomaron 5 mediciones físicas con sensores dis
 2.) Medidor de niveles de gas en partes por millón \
 3.) Medidor de potencial eléctrico \
 4.) Sensor de humedad \
-5.) Medidor de sonido/volúmen \
+5.) Medidor de sonido/volúmen 
 
 ### Código de esp32
 =======
