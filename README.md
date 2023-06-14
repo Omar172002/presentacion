@@ -1,4 +1,4 @@
-# Situación problema 
+# Situación problemaa
 Omar Arias Zepeda | A00830966 \
 Diego Alejandro Michel Castro | A01641907 
 
