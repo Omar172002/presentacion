@@ -296,7 +296,7 @@ float  valorsonido =  analogRead(sensor) ;
 
 ## Desarrollo de la aplicación para la transmición de resultados 
 
-El entorno usado para el diseño y construcción de la aplicación fué por medio de AppInventor, un entorno de desarrollo propio del MIT. En dicho entorno se colocan layouts y componentes visibles o no visibles para el usuario final, para su correcto  funcionamiento se deben agrupar bloques de comando para cada componente necesario en la vista de diseño.
+El entorno usado para el diseño y construcción de la aplicación fué AppInventor, un entorno de desarrollo propio del MIT. En dicho entorno se colocan layouts y componentes visibles o no visibles para el usuario final, para su correcto  funcionamiento se deben agrupar bloques de comando para cada componente necesario en la vista de diseño.
  
 Para la aplicación "Measure Wizard" creada, se segmentó el uso de pantalla total en 6 layouts alineados al centro, dentro de los cuales se establece la salida de información contenida en la base de datos por medio de labels y conectada a nuestra firebase por una funcionalidad nativa de appinventor. Para el ingreso de información por el usuario, se agregaron 2 TextBox para ingresar los datos, el correspondiente a nombre admite texto en caracteres mientras que el correspondiente a número solo admite dígitos.
  
