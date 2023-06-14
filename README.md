@@ -76,8 +76,7 @@ const firebaseConfig = {
 };
  
  ```
- 
- 
+Con la información de la firebase y los detalles de la red correctos en los que se está ejecutando para cada equipo, se procede a ejecutar el código para que las medidas captadas se reflejen en la firebase. En el circuito construido, el sensor de distancia resultó dañado, por lo que su valor marca 0. \
 Base de datos de firebase con los datos de los sensores \
 ![base de datos](base.png "Título alternativo")
  
