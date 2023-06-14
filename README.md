@@ -222,3 +222,6 @@ float  valorsonido =  analogRead(sensor) ;
 
 ## base de datos de firebase con los datos de los sensores
 ![base de datos](base.png "Título alternativo")
+
+## Circuito del esp-32 con todos los sensores 
+![base de datos](circuito.jpg "Título alternativo")
