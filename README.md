@@ -28,7 +28,10 @@ Diagrama de conexiones del sensor de humedad/temperatura \
 2.) Medidor de niveles de gas en partes por millón \
 3.) Medidor de potencial eléctrico \
 4.) Sensor de humedad \
-5.) Medidor de sonido/volúmen 
+5.) Medidor de sonido/volúmen \
+\
+Diagrama de conexiones del sensor de sonido \
+<image width="350" height = "250" src="https://www.prometec.net/wp-content/uploads/2016/05/montaje-protoboard-sensor-sonido-salida-anal%C3%B3gica.png" alt="Descripción de la imagen"> 
 
 
 
@@ -244,8 +247,7 @@ float  valorsonido =  analogRead(sensor) ;
 }
 ```
 
-### Diagrama de conexiones del sensor de sonido
-<image width="350" height = "250" src="https://www.prometec.net/wp-content/uploads/2016/05/montaje-protoboard-sensor-sonido-salida-anal%C3%B3gica.png" alt="Descripción de la imagen">
+
 
 ### Diagrama de conexiones del potenciometro
 <image width="350" height = "250" src="https://eloctavobit.com/wp-content/uploads/2020/05/esquema-potenciometro_bb.jpg" alt="Descripción de la imagen">
