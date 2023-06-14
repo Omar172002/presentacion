@@ -44,9 +44,9 @@ El ensamblado en protoboard usando periféricos del esp32 se construyó de la si
  
 ## Creación de una firebase y conseción de permisos
 
-Para contar con una base de datos útil y manejable, se creó y modificó una firebase de google, accesible para los propietarios y usuarios con invitación recibida para su modificación como desarrolladores. \
+Para contar con una base de datos útil y manejable, se creó y modificó una firebase de google, accesible para los propietarios y usuarios con invitación recibida para su modificación como desarrolladores. 
 
-Se decidió dejar los permisos públicos para que el esp pudiera publicar las mediciones tomadas sin mayores complicaciones, y poderse estar actualizando la información conforme se ejecuten los programas y se consigan los nuevos datos. \
+Se decidió dejar los permisos públicos para que el esp pudiera publicar las mediciones tomadas sin mayores complicaciones, y poderse estar actualizando la información conforme se ejecuten los programas y se consigan los nuevos datos. 
 
 ```
 {
