@@ -207,3 +207,5 @@ float  valorsonido =  analogRead(sensor) ;
   }
 }
 ```
+
+<image src="https://naylampmechatronics.com/img/cms/Blog/Tutorial%20DHT11%20y%20DHT22/conexion%20arduino%20y%20dht11.jpg" alt="Descripción de la imagen">
