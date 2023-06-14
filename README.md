@@ -45,6 +45,19 @@ El ensamblado en protoboard usando periféricos del esp32 se construyó de la si
 ## Creación de una firebase y conseción de permisos
 
 Para contar con una base de datos útil y manejable, se creó y modificó una firebase de google, accesible para los propietarios y usuarios con invitación recibida para su modificación como desarrolladores. \
+
+Se decidió dejar los permisos públicos para que el esp pudiera publicar las mediciones tomadas sin mayores complicaciones, y poderse estar actualizando la información conforme se ejecuten los programas y se consigan los nuevos datos. \
+
+```
+{
+ "rules" : {
+  ".read" : true, //2023-5-26
+  ".write" : true, //2023-5-26
+ }
+}
+ 
+```
+
 En la misma, se añadió la funcionalidad de Web App para la proyección de datos en una base a tiempo real contando con un ID identificador e información necesaria ingresada en los códigos que permiten su manejo y la app para el registro de datos puestos por el el usuario. 
  
 ![image](https://github.com/Omar172002/presentacion/assets/106403382/d955ddaf-ecd3-43df-9417-3c79f079dd64)
