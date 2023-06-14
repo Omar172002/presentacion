@@ -10,29 +10,23 @@
 #include <Firebase_ESP_Client.h>
 #include <addons/TokenHelper.h>
 
-#include "DHT.h"
+// entrada del sensor de gas 
 int Gas_analog = 34;    // used for ESP32
-#define DHTPIN 15     // Digital pin connected to the DHT sensor
-// Feather HUZZAH ESP8266 note: use pins 3, 4, 5, 12, 13 or 14 --
-// Pin 15 can work but DHT must be disconnected during program upload.
 
+// entrada del sensor de temperatura humedad
+#define DHTPIN 15     // Digital pin connected to the DHT sensor
 // Uncomment whatever type you're using!
 #define DHTTYPE DHT11   // DHT 11
-//#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
-//#define DHTTYPE DHT21   // DHT 21 (AM2301)
+
 
 // potenciometro entrada
 int potenciometro = 35;
-
-// for ESP32 microcontroller
-int trigPin = 18;      // trigger pin
-int echoPin = 19;      // echo pin
-
 
 // sensor de sonido entrada
 int sensor = 32 ;
 
 DHT dht(DHTPIN, DHTTYPE);
+
 // Replace the next variables with your SSID/Password combination
 const char* ssid = "INFINITUMULD3_2.4";
 const char* password = "HcFq4xF7RY";
@@ -115,10 +109,6 @@ void loop(){
 int valor = analogRead(potenciometro);
 ///////////////////////////////
 
-// codigo del sensor de ultrasonido
- int distance = sonar.ping_median(5);
- Serial.print(distance);
-////////////////////////////
 
 // codigo del sensor de sonido
 float  valorsonido =  analogRead(sensor) ;
@@ -162,6 +152,7 @@ float  valorsonido =  analogRead(sensor) ;
     }
     count++;
 
+    // CODIGO PARA ENVIAR LOS DATOS A FIREBASE
 
     // enviar el valor de humedad a firebase
     // Write an Float number on the database path test/float
