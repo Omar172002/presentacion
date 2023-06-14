@@ -2,6 +2,7 @@
 Omar Arias Zepeda | A00830966 \
 Diego Alejandro Michel Castro | A01641907 
 
+=============================
 
 ## Planteamiento
 
@@ -41,6 +42,7 @@ Diagrama de conexiones del sensor de sonido \
 El ensamblado en protoboard usando periféricos del esp32 se construyó de la siguiente manera: \
 ![base de datos](circuito.jpg "Título alternativo")
 
+============================= 
  
 ## Creación de una firebase y conseción de permisos
 
@@ -80,10 +82,9 @@ Con la información de la firebase y los detalles de la red correctos en los que
 Base de datos de firebase con los datos de los sensores \
 ![base de datos](base.png "Título alternativo")
  
-
+=============================
+ 
 ### Código de esp32
-=======
-# codigo de esp32.
 
 
 ```
