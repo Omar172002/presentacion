@@ -26,6 +26,10 @@ Diagrama de conexiones del sensor de humedad/temperatura \
 
 
 2.) Medidor de niveles de gas en partes por millón \
+\
+Diagrama de conexiones del sensor de gas \
+<image width="350" height = "250" src="https://i0.wp.com/elprofealegria.com/wp-content/uploads/2020/09/Sensor-Gas-MQ2-MQ3-MQ7-Y-MQ135.png?resize=930%2C620&ssl=1" alt="Descripción de la imagen">
+ 
 3.) Medidor de potencial eléctrico \
 \ 
 Diagrama de conexiones del potenciometro \
@@ -250,10 +254,6 @@ float  valorsonido =  analogRead(sensor) ;
   }
 }
 ```
-
-
-### Diagrama de conexiones del sensor de gas
-<image width="350" height = "250" src="https://i0.wp.com/elprofealegria.com/wp-content/uploads/2020/09/Sensor-Gas-MQ2-MQ3-MQ7-Y-MQ135.png?resize=930%2C620&ssl=1" alt="Descripción de la imagen">
 
 
 ### base de datos de firebase con los datos de los sensores
