@@ -3,7 +3,6 @@ Omar Arias Zepeda | A00830966 \
 Diego Alejandro Michel Castro | A01641907 
 
 
-
 ## Planteamiento
 
 Con los constantes avances en diversos componentes electrónicos podemos medir bastantes factores físicos para su análisis y uso, por medio de sensores y conectividad de dispositivos se puede desarrollar una transmición de información para su manejo y exposición a usuarios interesados por medio de aplicaciones, que es en lo que consta este proyecto.\
