@@ -194,7 +194,6 @@ float  valorsonido =  analogRead(sensor) ;
     }
 
     // envia los datos del sensor de ultrasonido a firebase
-    // escribe los valores del sensor de ultrasonido
     if (Firebase.RTDB.setFloat(&fbdo, "test/sonidoVolumen", valorsonido)) {
       Serial.println("PASSED");
       Serial.println("PATH: " + fbdo.dataPath());
