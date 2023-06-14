@@ -23,7 +23,7 @@ Para el desarrollo del trabajo se tomaron 5 mediciones físicas con sensores dis
 4.) Sensor de humedad \
 5.) Medidor de sonido/volúmen 
 
-Medidor de temperatura en grados celcius y farenheit
+Medidor de temperatura en grados celcius y farenheit \
 <image width="350" height = "250" src="https://naylampmechatronics.com/img/cms/Blog/Tutorial%20DHT11%20y%20DHT22/conexion%20arduino%20y%20dht11.jpg" alt="Descripción de la imagen">
 
 ### Código de esp32
