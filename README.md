@@ -12,7 +12,7 @@ El desarrollo de los sistemas se dividió en 4 etapas: \
 -Construcción del circuito físico y conexiones digitales \
 -Creación de una firebase y conseción de permisos \
 -Programación de los códigos para la conexión entre esp y firebase \
--Desarrollo de la aplicación de la transmición de resultados 
+-Desarrollo de la aplicación para la transmición de resultados 
 
 ### Construcción del circuito físico y conexiones digitales
 
@@ -84,7 +84,7 @@ Base de datos de firebase con los datos de los sensores \
  
 =============================
  
-### Código de esp32
+## Programación de los códigos para la conexión entre esp y firebase
 
 
 ```
@@ -294,4 +294,24 @@ float  valorsonido =  analogRead(sensor) ;
 }
 ```
 
+## Desarrollo de la aplicación para la transmición de resultados 
 
+El entorno usado para el diseño y construcción de la aplicación fué por medio de AppInventor, un entorno de desarrollo propio del MIT. En dicho entorno se colocan layouts y componentes visibles o no visibles para el usuario final, para su correcto  funcionamiento se deben agrupar bloques de comando para cada componente necesario en la vista de diseño.
+ 
+Para la aplicación "Measure Wizard" creada, se segmentó el uso de pantalla total en 6 layouts alineados al centro, dentro de los cuales se establece la salida de información contenida en la base de datos por medio de labels y conectada a nuestra firebase por una funcionalidad nativa de appinventor. Para el ingreso de información por el usuario, se agregaron 2 TextBox para ingresar los datos, el correspondiente a nombre admite texto en caracteres mientras que el correspondiente a número solo admite dígitos.
+ 
+La visualización previa en el entorno es ligeramente reducida por los tamaños de pantalla disponibles y los tamaños de fuente para los componentes visibles elegidos, la vista de diseño para el desarrollador es la siguiente:
+ 
+![image](https://github.com/Omar172002/presentacion/assets/106403382/610529ac-dbf7-45ed-98a8-5702edd1f085)
+
+Mientras que la vista de usuario en el dispositivo móvil es la siguiente:
+ 
+![image](https://github.com/Omar172002/presentacion/assets/106403382/c7730f11-9da7-42fe-b0b0-85e0a7eba745)
+
+Para poder mostrar los datos de los sensores almacenados en la firebase y permitir el registro de información para nombre y número en las mismas se organizaron bloques de comando que realicen dichas acciones.
+Al conectar con la base se convierten los valores a texto y se busca dentro de la misma el nombre de la etiqueta correspondiente para el valor correcto, mientras que para el registro el campo designado a número, el valor ingresado se convierte a texto para guardarlo en el tópico test al igual que el campo para nombre, dicha información se almacena en el mismo sitio que las medidas de variables físicas.
+
+![image](https://github.com/Omar172002/presentacion/assets/106403382/e6771885-4b38-45d1-a4f0-9299b35f7068)
+
+ 
+ 
