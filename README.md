@@ -60,8 +60,22 @@ Se decidió dejar los permisos públicos para que el esp pudiera publicar las me
 
 En la misma, se añadió la funcionalidad de Web App para la proyección de datos en una base a tiempo real contando con un ID identificador e información necesaria ingresada en los códigos que permiten su manejo y la app para el registro de datos puestos por el el usuario. 
  
-![image](https://github.com/Omar172002/presentacion/assets/106403382/d955ddaf-ecd3-43df-9417-3c79f079dd64)
-
+ ```
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+ 
+const firebaseConfig = {
+  apiKey: "AIzaSyDMqqK3-GVK98Bw4lUAARFKkhXnJftnlIE",
+  authDomain: "proyecto1-1744b.firebaseapp.com",
+  databaseURL: "https://proyecto1-1744b-default-rtdb.firebaseio.com",
+  projectId: "proyecto1-1744b",
+  storageBucket: "proyecto1-1744b.appspot.com",
+  messagingSenderId: "25820598689",
+  appId: "1:25820598689:web:51fa9d7ae03c7ffdbe3be0",
+  measurementId: "G-FV4NXXBYRZ"
+};
+ 
+ ```
  
  
 Base de datos de firebase con los datos de los sensores \
