@@ -20,7 +20,9 @@ Para el desarrollo del trabajo se tomaron 5 mediciones físicas con sensores dis
 \
 1.) Medidor de temperatura en grados celsius y farenheit \
 Diagrama de conexiones del sensor de humedad/temperatura \
-<image width="350" height = "250" src="https://naylampmechatronics.com/img/cms/Blog/Tutorial%20DHT11%20y%20DHT22/conexion%20arduino%20y%20dht11.jpg" alt="Descripción de la imagen"> \
+<image width="350" height = "250" src="https://naylampmechatronics.com/img/cms/Blog/Tutorial%20DHT11%20y%20DHT22/conexion%20arduino%20y%20dht11.jpg" alt="Descripción de la imagen"> 
+ 
+\
 
 2.) Medidor de niveles de gas en partes por millón \
 3.) Medidor de potencial eléctrico \
