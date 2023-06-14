@@ -18,6 +18,8 @@ El desarrollo de los sistemas se dividió en 4 etapas: \
 
 Para el desarrollo del trabajo se tomaron 5 mediciones físicas con sensores distintos para cada una, se trabajaron con las siguientes
 
+YA QUIERO TERMINAR ESTA MATERIA
+
 ### Código de esp32
 =======
 # codigo de esp32.
