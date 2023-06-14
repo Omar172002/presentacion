@@ -38,6 +38,10 @@ Diagrama de conexiones del potenciometro \
 Diagrama de conexiones del sensor de sonido \
 <image width="350" height = "250" src="https://www.prometec.net/wp-content/uploads/2016/05/montaje-protoboard-sensor-sonido-salida-anal%C3%B3gica.png" alt="Descripción de la imagen"> 
 
+El ensamblado en protoboard usando periféricos del esp32 se construyó de la siguiente manera: \
+![base de datos](circuito.jpg "Título alternativo")
+
+ 
 ## Creación de una firebase y conseción de permisos
 
 Base de datos de firebase con los datos de los sensores \
@@ -256,5 +260,4 @@ float  valorsonido =  analogRead(sensor) ;
 }
 ```
 
-### Circuito del esp-32 con todos los sensores 
-![base de datos](circuito.jpg "Título alternativo")
+
