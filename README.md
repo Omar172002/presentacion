@@ -23,8 +23,6 @@ Para el desarrollo del trabajo se tomaron 5 mediciones físicas con sensores dis
 Diagrama de conexiones del sensor de humedad/temperatura \
 <image width="350" height = "250" src="https://naylampmechatronics.com/img/cms/Blog/Tutorial%20DHT11%20y%20DHT22/conexion%20arduino%20y%20dht11.jpg" alt="Descripción de la imagen"> 
  
-
-
 2.) Medidor de niveles de gas en partes por millón \
 \
 Diagrama de conexiones del sensor de gas \
@@ -254,7 +252,6 @@ float  valorsonido =  analogRead(sensor) ;
   }
 }
 ```
-
 
 ### base de datos de firebase con los datos de los sensores
 ![base de datos](base.png "Título alternativo")
