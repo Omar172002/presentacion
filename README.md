@@ -1,6 +1,6 @@
 # presentacion
 
-# codigo de esp32
+# codigo de esp32.
 
 ```
 #include "NewPing.h"      // include NewPing library
