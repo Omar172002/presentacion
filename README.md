@@ -1,4 +1,4 @@
-# Situación problema
+# Reto, Equipo 1
 Omar Arias Zepeda | A00830966 \
 Diego Alejandro Michel Castro | A01641907 
 
