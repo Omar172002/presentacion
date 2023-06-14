@@ -1,6 +1,27 @@
-# presentacion
+# Situación problema 
+Omar Arias Zepeda | A00830966 \
+Diego Alejandro Michel Castro | A01641907 
 
+
+
+## Planteamiento
+
+Con los constantes avances en diversos componentes electrónicos podemos medir bastantes factores físicos para su análisis y uso, por medio de sensores y conectividad de dispositivos se puede desarrollar una transmición de información para su manejo y exposición a usuarios interesados por medio de aplicaciones, que es en lo que consta este proyecto.\
+\
+El desarrollo de los sistemas se dividió en 4 etapas: \
+-Construcción del circuito físico y conexiones digitales \
+-Creación de una firebase y conseción de permisos \
+-Programación de los códigos para la conexión entre esp y firebase \
+-Desarrollo de la aplicación de la transmición de resultados 
+
+### Construcción del circuito físico y conexiones digitales
+
+Para el desarrollo del trabajo se tomaron 5 mediciones físicas con sensores distintos para cada una, se trabajaron con las siguientes
+
+### Código de esp32
+=======
 # codigo de esp32.
+
 
 ```
 #include "NewPing.h"      // include NewPing library
@@ -209,21 +230,21 @@ float  valorsonido =  analogRead(sensor) ;
 }
 ```
 
-## Diagrama de conexiones del sensor de humedad/temperatura
+### Diagrama de conexiones del sensor de humedad/temperatura
 <image width="350" height = "250" src="https://naylampmechatronics.com/img/cms/Blog/Tutorial%20DHT11%20y%20DHT22/conexion%20arduino%20y%20dht11.jpg" alt="Descripción de la imagen">
 
-## Diagrama de conexiones del sensor de sonido
+### Diagrama de conexiones del sensor de sonido
 <image width="350" height = "250" src="https://www.prometec.net/wp-content/uploads/2016/05/montaje-protoboard-sensor-sonido-salida-anal%C3%B3gica.png" alt="Descripción de la imagen">
 
-## Diagrama de conexiones del potenciometro
+### Diagrama de conexiones del potenciometro
 <image width="350" height = "250" src="https://eloctavobit.com/wp-content/uploads/2020/05/esquema-potenciometro_bb.jpg" alt="Descripción de la imagen">
 
-## Diagrama de conexiones del sensor de gas
+### Diagrama de conexiones del sensor de gas
 <image width="350" height = "250" src="https://i0.wp.com/elprofealegria.com/wp-content/uploads/2020/09/Sensor-Gas-MQ2-MQ3-MQ7-Y-MQ135.png?resize=930%2C620&ssl=1" alt="Descripción de la imagen">
 
 
-## base de datos de firebase con los datos de los sensores
+### base de datos de firebase con los datos de los sensores
 ![base de datos](base.png "Título alternativo")
 
-## Circuito del esp-32 con todos los sensores 
+### Circuito del esp-32 con todos los sensores 
 ![base de datos](circuito.jpg "Título alternativo")
