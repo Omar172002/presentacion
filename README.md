@@ -10,6 +10,8 @@
 #include <Firebase_ESP_Client.h>
 #include <addons/TokenHelper.h>
 
+//ENTRADAS DE LOS SENSORES
+
 // entrada del sensor de gas 
 int Gas_analog = 34;    // used for ESP32
 
