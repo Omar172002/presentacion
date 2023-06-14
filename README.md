@@ -214,5 +214,8 @@ float  valorsonido =  analogRead(sensor) ;
 ## Diagrama de conexiones del sensor de sonido
 <image width="350" height = "250" src="https://www.prometec.net/wp-content/uploads/2016/05/montaje-protoboard-sensor-sonido-salida-anal%C3%B3gica.png" alt="Descripción de la imagen">
 
-## Diagrama de conexiones del sensor de sonido
+## Diagrama de conexiones del potenciometro
 <image width="350" height = "250" src="https://eloctavobit.com/wp-content/uploads/2020/05/esquema-potenciometro_bb.jpg" alt="Descripción de la imagen">
+
+## Diagrama de conexiones del sensor de gas
+<image width="350" height = "250" src="https://i0.wp.com/elprofealegria.com/wp-content/uploads/2020/09/Sensor-Gas-MQ2-MQ3-MQ7-Y-MQ135.png?resize=930%2C620&ssl=1" alt="Descripción de la imagen">
